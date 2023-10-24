@@ -448,7 +448,7 @@ def main():
 
     cap = cv2.VideoCapture(0)
     detector = dlib.get_frontal_face_detector()
-    predictor = dlib.shape_predictor("./eyetracking2/shape_predictor_68_face_landmarks.dat")
+    predictor = dlib.shape_predictor("./eyetracking/eyetracking2/shape_predictor_68_face_landmarks.dat")
 
     # 얼굴 인식 활성화 여부 확인
     Activated = False

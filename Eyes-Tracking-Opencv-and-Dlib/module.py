@@ -30,7 +30,7 @@ LIGHT_RED = (2, 53, 255)
 detectFace = dlib.get_frontal_face_detector()
 # landmarks detector
 predictor = dlib.shape_predictor(
-    "Predictor/shape_predictor_68_face_landmarks.dat")
+    "Eyes-Tracking-Opencv-and-Dlib/Predictor/shape_predictor_68_face_landmarks.dat")
 
 # function
 
